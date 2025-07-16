@@ -20,7 +20,7 @@ def driver_setup(request):
     driver = webdriver.Remote('http://localhost:4723', options=options)
     driver.implicitly_wait(30)
 
-    request.cls.driver = driver
+    request.cls.driver = driverasdasdasd
     yield
     driver.quit()
 
